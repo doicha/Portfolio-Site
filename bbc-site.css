@@ -1,0 +1,264 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#topbar {
+    width: 1000px;
+    margin: 0 auto;
+    height: 40px;
+}
+#logo {
+    margin-right: 8px;
+    margin-top: 8px;
+    width: 100px;
+    float: left;
+}
+.topbar-section {
+    float: left;
+    border-left: 1px rgb(204,204,204) solid;
+    height: 100%;
+}
+#signin-image {
+    margin: 10px 15px;
+    font-size: 25px;
+    float: left;
+}
+#signin-text {
+    font-weight: bold;
+    font-size: 90%;
+    position:relative;
+    top: 12px;
+    padding-right: 50px;
+}
+#wiggle {
+    float: left;
+    height: 40px;
+}
+#bell {
+    font-size: 25px;
+    float: left;
+    margin: 10px 10px 0px 10px;
+}
+
+.topbar-menu {
+    font-weight: bold;
+    font-size: 90%;
+    padding: 13px 15px 0 15px;
+    height: 27px;
+}
+#more-arrow {
+    margin-left: 10px;
+}
+#searchbox {
+    background-color: rgb(228,228,228);
+    border: none;
+    font-weight: bold;
+    float: left;
+    font-size: 14px;
+    padding: 5px;
+    margin: 6px 0px 6px 6px;
+}
+#searchlogo {       
+    background-color: rgb(228,228,228);
+    text-decoration: none;
+    margin: 6px 0px 6px 0px;
+    height: 25px;
+    padding: 0px 0px 1px 1px;
+}
+#seachlogo:hover {
+    transition: 0.1s;
+    cursor: pointer;     
+}
+.clear {
+    clear: both;
+}
+#menu-bar-container {
+    background-color: rgb(187,25,25);
+    width: 100%;
+    height: 65px;
+    border-top: 1px solid rgb(204,204,204);
+}
+#menu-bar {
+    width: 1000px;
+    margin: 0 auto;
+}
+h1 {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+    float: left;
+
+}
+#local-news {
+    float: right;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    
+
+}
+#local-news a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;       
+    border: 1px solid rgb(204,204,204);
+    border-right: 0px;
+    padding: 5px;
+    margin-top: 15px;
+}
+#local-news a:hover {
+    text-decoration: underline;
+}
+#local-news i {
+   height: 28px;
+   float: right;
+   margin-top: -6px;
+   border: 1px solid rgb(204,204,204);
+   border-left: 0px;  
+   padding: 5px;    
+   font-size: 25px;
+}
+.menu-bar-section {
+    background-color: rgb(169,23,23);
+    width: 100%;
+    height: 35px;
+}
+.menu-inside-bar {
+    width: 1000px;
+    margin: 0 auto;
+
+}
+.menu-table-border {
+    border-right: 1px solid rgb(187,69,69);
+    line-height: 5px;
+    padding-top: 6px;
+}
+.menu-table-text {
+    float: left;
+    color: white;
+    font-size: 16px;
+    padding: 5px 10px 5px 10px;
+    margin-top: 4px;
+
+}
+#more-down-arrow {
+    float: right;
+    margin-top: -6px;
+    margin-left: 5px;
+}
+.menu-table-text:hover {
+    text-decoration: underline;
+}
+#page-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    border-bottom: 3px solid rgb(187,25,25);
+    width: 102px;
+}
+h3 a {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+h3 a:hover {
+    color: rgb(137,179,234);
+}
+#article-summary {
+    color: rgb(105, 105, 105);;
+    width: 250px;
+    float: left;
+}
+.asda {
+    color: rgb(187,25,25);
+    text-decoration: none;
+    border-left: 1px solid rgb(204,204,204);
+    padding-left: 10px;
+}
+#article-summary a:hover {
+    color: rgb(137,179,234);      
+}
+.date {
+    padding-right: 10px;
+}
+#article-container{
+    float: left;
+    width: 650px;
+    border-right: 1px solid rgb(204,204,204);
+    padding-right: 20px;
+    margin-right: 15px;
+}
+#main-article-img {
+    width: 400px;
+    float: right;
+}
+#clock-img {
+    height: 13px;
+}
+#main-article {
+    float: left;
+}
+#article-hr {
+    border-top:1px solid rgb(187,25,25);
+    width: 50px;
+}
+.article-below {
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+#right-bar {
+    margin: 30px 0px 0px 5px;
+    float: left;
+    width: 330px;
+}
+h4 {
+    font-size: 20px;
+
+}
+.vid-bar {
+    float: left;
+}
+b {      
+    width: 40px;
+    
+}
+.videos {
+    float: left;
+    width: 125px;
+    margin-right: 15px;
+}
+.vid-description {
+    text-decoration: none;
+    color: black;
+}
+.vid-description:hover {
+    color: rgb(137,179,234);
+}
+.right-date {
+    font-size: 12px;
+    color: rgb(105, 105, 105);
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+    border-right: 1px solid rgb(204,204,204);
+    padding-right: 10px;
+}
+.right-clock {
+    position: relative;
+    top: -3px;
+}
+.right-red-link {       
+    text-decoration: none;
+    color: rgb(187,25,25);
+    padding-left: 5px;
+    font-size: 14px;
+}
