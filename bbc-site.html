@@ -7,95 +7,8 @@
     <title>Technology - BBC News</title>
     <link href="normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style type="text/css">
-    body {
-        margin: 0;
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    #topbar {
-        width: 1000px;
-        margin: 0 auto;
-        height: 40px;
-    }
-    #logo {
-        margin-right: 8px;
-        margin-top: 8px;
-        width: 100px;
-        float: left;
-    }
-    .topbar-section {
-        float: left;
-        border-left: 1px rgb(204,204,204) solid;
-        height: 100%;
-    }
-    #signin-image {
-        margin: 10px 15px;
-        font-size: 25px;
-        float: left;
-    }
-    #signin-text {
-        font-weight: bold;
-        font-size: 90%;
-        position:relative;
-        top: 12px;
-        padding-right: 50px;
-    }
-    #wiggle {
-        float: left;
-        height: 40px;
-    }
-    #bell {
-        font-size: 25px;
-        float: left;
-        margin: 10px 10px;
-    }
-
-    .topbar-menu {
-        font-weight: bold;
-        font-size: 90%;
-        padding: 13px 15px 0 15px;
-        height: 27px;
-    }
-    #more-arrow {
-        margin-left: 10px;
-    }
-    #searchbox {
-        background-color: rgb(228,228,228);
-        border: none;
-        font-weight: bold;
-        float: left;
-        font-size: 14px;
-        padding: 5px;
-        margin: 6px 0px 6px 6px;
-    }
-    #searchlogo {       
-        background-color: rgb(228,228,228);
-        text-decoration: none;
-        margin: 6px 0px 6px 0px;
-        height: 25px;
-        padding: 0px 0px 1px 1px;
-    }
-    #seachlogo:hover {
-        transition: 0.1s;
-        cursor: pointer;     
-    }
-    .red {
-        background-color: red;
-        width: 1000px;
-        display: flex;
-        height: 50px;
-    }
-
-
-
-
-</style>
+    <link rel="stylesheet" type="text/css" href="bbc-site.css">
 </head>
-
 <body>
         <div id="topbar">
             <img id="logo" src="image/bbc-logo.png">
@@ -133,12 +46,106 @@
                 <input id="searchlogo" type="image" src="image/searchlogo.png">
             </div>
         </div>
-
-        <div class="red">
-            <div class="news">
-                <img src="image/news-logo.png">
-
+        <div class="clear"></div>
+            <div id="menu-bar-container">
+                <div id="menu-bar">
+                    <h1>NEWS</h1>               
+                <div id="local-news">
+                    <a href="">Find local news</a>
+                    <i class="fa fa-map-pin"></i>
+                </div>
             </div>
+            </div>
+            <div class="menu-bar-section">
+                <div class="menu-inside-bar">
+                    <div class="menu-table-border">
+                    <div class="menu-table">
+                        <div class="menu-table-text menu-table-border">
+                            Home
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            UK
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            World
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Business
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Politics
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Tech
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Science
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Health
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Education
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Entertainment & Arts
+                        </div>
+                        <div class="menu-table-text menu-table-border">
+                            Video & Audio
+                        </div>
+                        <div class="menu-table-text">
+                            More
+                            <i id="more-down-arrow" class="fa fa-arrow-circle-down" ></i>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+    <div class="clear"></div>
+        <div id="page-container">
+            <div id="main-article">                
+                <h2>Technology</h2>
+                <div id="article-container">                    
+                    <h3><a href="">Asda bug exposed payment details</a></h3>
+                    <img id="main-article-img" src="image/asda.png">
+                    <div id="article-summary">
+                        <p>Security vulnerabilities that put customers at risk have 
+                        affected Asda's website for a couple of years, 
+                        a security expert has revealed.</p>
+                        <p><img id="clock-img" src="image/clock-logo.png"><span class="date"> 19 January 2016</span><a class="asda" href="">Technology</a></p>                     
+                        <hr id="article-hr" align="left">
+                        <p><a href="" class="article-below">Surveillance firm hit in hack attack</a></p>
+                        <p><a href="" class="article-below">eBay flaw has existed for months</a></p>    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+        <div id="right-bar">
+            <h4>Watch/Listen</h4>
+            <div id="vid-bar">
+                <img class="videos" src="image/vid-1.png">
+                <a class="vid-description" href=""><b>UK science chief backs blockchains</b></a>
+                <p class="right-clock"><img src="image/clock-logo.png"><span class="right-date"> 19 January 2016</span></p>
+                
+                <img class="videos" src="image/vid-2.png">
+                <a class="vid-description" href=""><b>Drone register gives 'accountability'</b></a>
+                <p class="right-clock"><img src="image/clock-logo.png"><span class="right-date"> 18 January 2016</span><br><a class="right-red-link" href="">Technology</a></p>
+                
+                <img class="videos" src="image/vid-3.png">
+                <a class="vid-description" href=""><b>SpaceX rocket explodes during landing</b></a>
+                <p class="right-clock"><img src="image/clock-logo.png"><span class="right-date"> 18 January 2016</span><br><a class="right-red-link" href="">Science & Environment</a></p>
+
+                <img class="videos" src="image/vid-4.png">
+                <a class="vid-description" href=""><b>What is a VPN Service?</b></a>
+                <p class="right-clock"><img src="image/clock-logo.png"><span class="right-date"> 18 January 2016</span><br><a class="right-red-link" href="">Technology</a></p>
+
+              </div>
+
+
+
+
 
         </div>
 
